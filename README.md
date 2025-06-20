@@ -25,13 +25,13 @@ Various figures of the PID control response were plotted, namely the immediate d
 By placing the scope at the ultrasonic sensor’s output after filtering, the plot showcases the motion of the ball on the track. 
 
  <p align="center">
-   <img src="https://github.com/user-attachments/assets/9ae4ee93-b7c5-4258-a42b-f0482183707d" alt="Distance Graph" width=60%>
+   <img src="https://github.com/user-attachments/assets/9ae4ee93-b7c5-4258-a42b-f0482183707d" alt="Distance Graph" width=50%>
  </p>
  
  The oscillations in the distance graph are due to a stopping edge placed near the ultrasonic sensor, which causes the ball to bounce slightly upon contact, preventing it from hitting the sensor directly.
 
   <p align="center">
-   <img src="https://github.com/user-attachments/assets/28a284b5-8167-4633-9da1-e99716ef82db" alt="Controller Response" width=60%>
+   <img src="https://github.com/user-attachments/assets/28a284b5-8167-4633-9da1-e99716ef82db" alt="Controller Response" width=50%>
  </p>
  
  The PID controller generates an output ranging from -90 to 90 degrees, which is used to set the position of the servo motor and adjust the platform accordingly.
